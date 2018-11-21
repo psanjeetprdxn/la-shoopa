@@ -252,3 +252,43 @@ nav li a:hover {
   font-size: 20px;
   color: #7c7c7c;
 }
+
+/* BANNER */
+.banner {
+  margin-bottom: 52px;
+  position: relative;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 108px;
+  left: 248px;
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  word-spacing: 1.9px;
+}
+
+.banner span {
+  position: absolute;
+  top: 152px;
+  left: 248px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.banner a {
+  border: none;
+  padding: 15px 42px;
+  position: absolute;
+  left: 248px;
+  bottom: 115px;
+  color: #5e8390;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
