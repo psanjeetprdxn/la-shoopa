@@ -292,3 +292,65 @@ nav li a:hover {
   font-size: 16px;
   font-weight: 700;
 }
+
+/* LATEST WORK */
+.latest-products {
+  text-align: center;
+}
+
+.latest-products h3 {
+  position: relative;
+}
+
+.latest-products h3:before,
+.latest-products h3:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #f8f8f8;
+  top: 0;
+  width: 13%;
+}
+.latest-products h3:before {
+  right: 60%;
+  margin-right: 15px;
+}
+.latest-products h3:after {
+  left: 60%;
+  margin-left: 15px;
+}
+
+.latest-workk-description {
+  width: 100%;
+  margin: 0 auto;
+}
+.latest-products li {
+  box-sizing: border-box;
+  width: 30.87%;
+  border: 3px solid #F8F8F8;
+  margin-right: 2.4%;
+  float: left;
+  position: relative;
+}
+
+.latest-products img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.latest-products .image-wrapper {
+  width: 70%;
+  margin: 25px auto;
+}
+.latest-products .discount {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  background-color: #f34c54;
+  border-left: 2px solid #e03b3d;
+  padding: 10px;
+}
+
+.latest-products p {
+  margin-bottom: 15px;
+}
