@@ -2,11 +2,11 @@
 
 /*------------------------------------------------------------------
   [Table of contents]
-  * To keep an overview of structure of your code, we make use of table of 
+  * To keep an overview of structure of your code, we make use of table of
   * content. Table of content is use display the overall tree structure of your
-  * Layout. 
+  * Layout.
   * (NOTE: Remove this commented code once you start developing the code.
-  * Remove the following table of content and add your own as this is just and 
+  * Remove the following table of content and add your own as this is just and
   * example to let you know)
 
   1. CSS Reset Code
@@ -31,9 +31,9 @@
 /*------------------------------------------------------------------
   [Color codes]
   * Mention the color code you have used in your html document for the respective
-  * elements given as follow. 
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following color code and add your own as this is just and 
+  * elements given as follow.
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following color code and add your own as this is just and
   * example to let you know)
 
   Header nav: #e5e5df (Cararra)
@@ -45,8 +45,8 @@
   [Typography]
   * Mention the Typography you have used in your html document for the respective
   * elements given as follow.
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following typography and add your own as this is just and 
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following typography and add your own as this is just and
   * example to let you know)
 
   Header nav a: 16px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -144,7 +144,7 @@
  * apply to the element wherever it is needed. If any single property in changed,
  * then override only that property in the particular class which is used for the
  * element.
- * (NOTE: Remove this commented code once you start 
+ * (NOTE: Remove this commented code once you start
  * developing the code. Remove the following font class and add your own
  * as this is just and example to let you know. If there is only one font family
  * followed throughout the site, then menstion the font property in body. No need
@@ -157,4 +157,41 @@
  }
 
  /* ======= Your styling goes below ======= */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+ }
 
+ .container { width: 100%; }
+
+ .wrapper {
+  width: 65.7054%;
+  margin: 0 auto;
+  max-width: 1500px;
+ }
+
+ .fas { padding-right: 5px; }
+ body { font-family: Arial; }
+ ul li { list-style: none; }
+ img { width: 100%; }
+ .uppercase { text-transform: uppercase; }
+ .first-letter:first-letter { text-transform: capitalize; }
+ .block { display: block; }
+ .centre { text-align: center; }
+ .capitalize { text-transform: capitalize; }
+
+ .transition {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+ }
+
+ a {
+  display: inline-block;
+  text-decoration: none;
+ }
